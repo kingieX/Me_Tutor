@@ -1,0 +1,39 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.body {
+  width: 100vw;
+  height: 84vh;
+  background-image: url('./assets/bgImg.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./assets/bgImg.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box {
+  background-color: rgba(6, 6, 6, 0.42);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.btn-color {
+  background-color: #264ECA;
+  color: white;
+}
+
+.google {
+  width: 60px;
+  text-align: center;
+}
